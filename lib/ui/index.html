@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Beer List</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+    <!--<script data-main="scripts/main" src="require.js"></script>-->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Beer List</h1>
+      <hr />
+      <div class="page"></div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.4/backbone.marionette.js"></script>
+    <script src="handlebars.runtime-v1.3.0.js"></script>
+    <script src="templates.js"></script>
+
+    <script>
+      function createTemplate(templateName, data) {
+        var templatePath = 'lib/ui/templates/' + templateName + '.hbs';
+        var templateString = window['JST'][templatePath](data);
+        return templateString;
+      }
+      // $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
+      //   options.url = 'http://backbonejs-beginner.herokuapp.com' + options.url;
+      // });
+      $.fn.serializeObject = function() {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+          if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+              o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+          } else {
+            o[this.name] = this.value || '';
+          }
+        });
+        return o;
+      };
+    </script>
+
+    <script type="text/javascript" src="beer-list.js"></script>
+  </body>
+</html>
