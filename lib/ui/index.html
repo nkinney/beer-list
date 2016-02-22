@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title>Beer List</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
-    <!--<script data-main="scripts/main" src="require.js"></script>-->
   </head>
   <body>
     <div class="container">
       <h1>Beer List</h1>
       <hr />
+      <div class="container" data-region="content"></div>
       <div class="page"></div>
     </div>
 
@@ -19,6 +19,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.4/backbone.marionette.js"></script>
     <script src="handlebars.runtime-v1.3.0.js"></script>
     <script src="templates.js"></script>
+    <script src="beer-list.js"></script>
 
     <script>
       function createTemplate(templateName, data) {
@@ -26,9 +27,9 @@
         var templateString = window['JST'][templatePath](data);
         return templateString;
       }
-      // $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
-      //   options.url = 'http://backbonejs-beginner.herokuapp.com' + options.url;
-      // });
+    </script>
+
+    <script type="text/javascript">
       $.fn.serializeObject = function() {
         var o = {};
         var a = this.serializeArray();
@@ -44,8 +45,10 @@
         });
         return o;
       };
-    </script>
 
-    <script type="text/javascript" src="beer-list.js"></script>
+      $(document).ready(function () {
+          Application.start();
+      });
+    </script>
   </body>
 </html>

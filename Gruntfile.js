@@ -17,14 +17,17 @@ module.exports = function (grunt) {
         },
         files: [
           'lib/ui/**/*.js'
-        ]
+        ],
+        tasks: [
+          'browserify:dist','express:web'
+        ],
       },
       api: {
         files: [
           'lib/api/**/*.js'
         ],
         tasks: [
-          'express:web'
+          'browserify:dist','express:web'
         ],
         options: {
           nospawn: true,
@@ -67,5 +70,5 @@ module.exports = function (grunt) {
     'parallel:web',
   ]);
   
-  grunt.registerTask('default', ['web']);
+  grunt.registerTask('default', ['dist','web']);
 };
