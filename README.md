@@ -1,3 +1,3 @@
 # beer-list
-npm install
-grunt handlebars && grunt dist && grunt
+1. npm install
+2. grunt handlebars && grunt dist && grunt
