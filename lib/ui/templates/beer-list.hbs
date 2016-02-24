@@ -1,6 +1,7 @@
   <table class="table table-striped">
   <thead>
     <tr>
+      <th>Try It</th>
       <th>Beer</th>
       <th>Brewery</th>
       <th>Style</th>
@@ -10,17 +11,20 @@
   </thead>
   <tbody>
     {{#each beers}}
-    <tr>
-      <td>{{this.attributes.beer}}</td>
-      <td>{{this.attributes.brewery}}</td>
-      <td>{{this.attributes.style}}</td>
-      <td>{{this.attributes.season}}</td>
-      {{#if this.attributes.isGood}}
-        <td><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></td>
-      {{else}}
-        <td><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></td>
-      {{/if}}
-    </tr>
+    {{#unless this.attributes.haveTried}}
+      <tr>
+        <td><i class="fa fa-times"></i></td>
+        <td>{{this.attributes.beer}}</td>
+        <td>{{this.attributes.brewery}}</td>
+        <td>{{this.attributes.style}}</td>
+        <td>{{this.attributes.season}}</td>
+        {{#if this.attributes.isGood}}
+          <td><i class="fa fa-thumbs-up"></i></td>
+        {{else}}
+          <td><<i class="fa fa-thumbs-down"></i></td>
+        {{/if}}
+      </tr>
+    {{/unless}}
     {{/each}}
   </tbody>
 </table>
