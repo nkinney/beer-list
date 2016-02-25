@@ -1,677 +1,790 @@
 [  
    {  
+      "id":1,
       "brewery":"21st Amendment",
       "beer":"Back in Black",
       "style":"black IPA",
       "season":"all"
    },
    {  
+      "id":2,
       "brewery":"21st Amandment",
       "beer":"Fireside Chat",
       "style":"Winter Warmer",
       "season":"winter"
    },
    {  
+      "id":3,
       "brewery":"21st Amendment",
       "beer":"Hell or High Watermelon",
       "style":"fruit beer",
       "season":"summer"
    },
    {  
+      "id":4,
       "brewery":"Abita",
       "beer":"Purple Haze",
       "style":"fruit beer",
       "season":"all"
    },
    {  
+      "id":5,
       "brewery":"Amstel",
       "beer":"Amstel Light",
       "style":"European Light Lager",
       "season":"all"
    },
    {  
+      "id":6,
       "brewery":"Anchor Brewing",
       "beer":"Anchor Steam",
       "style":"Steam Beer",
       "season":"all"
    },
    {  
+      "id":7,
       "brewery":"Avery Brewing",
       "beer":"White Rascal",
       "style":"Witbier",
       "season":"all"
    },
    {  
+      "id":8,
       "brewery":"Ballast Point",
       "beer":"Sculpin",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":9,
       "brewery":"Bass Brewery",
       "beer":"Bass Pale Ale",
       "style":"English Pale Ale",
       "season":"all"
    },
    {  
+      "id":10,
       "brewery":"Beck's Brewery",
       "beer":"Beck's",
       "style":"German Pilsner",
       "season":"all"
    },
    {  
+      "id":11,
       "brewery":"Bell's",
       "beer":"Oberon Ale",
       "style":"American Pale Wheat Ale",
       "season":"summer"
    },
    {  
+      "id":12,
       "brewery":"Bell's",
       "beer":"Two Hearted Ale",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":13,
       "brewery":"Blue Moon Brewing",
       "beer":"Blue Moon",
       "style":"Witbier",
       "season":"all"
    },
    {  
+      "id":14,
       "brewery":"Boddingtons Brewery",
       "beer":"Boddington's Pub Ale",
       "style":"English Pale Ale",
       "season":"all"
    },
    {  
+      "id":15,
       "brewery":"Breckenridge Brewery",
       "beer":"471",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":16,
       "brewery":"Breckenridge",
       "beer":"Christmas Ale",
       "style":"Winter Warmer",
       "season":"winter"
    },
    {  
+      "id":17,
       "brewery":"Brew Kettle",
       "beer":"Black Rajah",
       "style":"Black IPA",
       "season":"all"
    },
    {  
+      "id":18,
       "brewery":"Brew Kettle",
       "beer":"White Rajah",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":19,
       "brewery":"Brooklyn Brewing",
       "beer":"Brooklyn IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":20,
       "brewery":"Brooklyn Brewing",
       "beer":"Brooklyn Lager",
       "style":"American Amber Lager",
       "season":"all"
    },
    {  
+      "id":21,
       "brewery":"Brooklyn Brewing",
       "beer":"Post Road Pumpkin Ale",
       "style":"Pumpkin Ale",
       "season":"fall"
    },
    {  
+      "id":22,
       "brewery":"Brooklyn Brewing",
       "beer":"Brooklyn Summer Ale",
       "style":"English Pale Ale",
       "season":"summer"
    },
    {  
+      "id":23,
       "brewery":"Charles Wells",
       "beer":"Banana Bread",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":24,
       "brewery":"Columbus Brewing Company",
       "beer":"IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":25,
       "brewery":"Crabbies",
       "beer":"Ginger Beer",
       "style":"Spiced Beer",
       "season":"all"
    },
    {  
+      "id":26,
       "brewery":"Deschutes Brewery",
       "beer":"Black Butte",
       "style":"American Porter",
       "season":"all"
    },
    {  
+      "id":27,
       "brewery":"Deschutes Brewery",
       "beer":"Mirror Pond",
       "style":"American Pale Ale",
       "season":"all"
    },
    {  
+      "id":28,
       "brewery":"Dogfish Head",
       "beer":"60 minute IPA",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":29,
       "brewery":"Dogfish Head",
       "beer":"90 Minute IPA",
       "style":"Double IPA",
       "season":"all"
    },
    {  
+      "id":30,
       "brewery":"Dos Equis",
       "beer":"Dos Equis Amber Lager",
       "style":"Vienna lager",
       "season":"all"
    },
    {  
+      "id":31,
       "brewery":"DuClaw",
       "beer":"Sweet Baby Jesus!",
       "style":"Chocolate Peanut Butter Porter",
       "season":"all"
    },
    {  
+      "id":32,
       "brewery":"Fat Heads",
       "beer":"Bumble Berry",
       "style":"fruit beer",
       "season":"all"
    },
    {  
+      "id":33,
       "brewery":"Fat Heads",
       "beer":"Headhunter",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":34,
       "brewery":"Fat Heads",
       "beer":"Holly Jolly",
       "style":"Spiced Beer",
       "season":"winter"
    },
    {  
+      "id":35,
       "brewery":"Fat Heads",
       "beer":"Spooky Tooth",
       "style":"Pumkin Ale",
       "season":"fall"
    },
    {  
+      "id":36,
       "brewery":"Flying Monkey",
       "beer":"Smashbomb Atomic IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":37,
       "brewery":"Four String Brewing",
       "beer":"Brass Knuckle",
       "style":"American Pale Ale",
       "season":"all"
    },
    {  
+      "id":38,
       "brewery":"Goose Island",
       "beer":"312",
       "style":"American Pale Wheat Ale",
       "season":"all"
    },
    {  
+      "id":39,
       "brewery":"Great Divide",
       "beer":"Titan IPA",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":40,
       "brewery":"Great Lakes Brewing",
       "beer":"Blackout Stout",
       "style":"winter",
       "season":null
    },
    {  
+      "id":41,
       "brewery":"Great Lakes Brewing",
       "beer":"Burning River",
       "style":"American Pale Ale",
       "season":"all"
    },
    {  
+      "id":42,
       "brewery":"Great Lakes Brewing",
       "beer":"Chillwave",
       "style":"Double IPA",
       "season":"all"
    },
    {  
+      "id":43,
       "brewery":"Great Lakes Brewing",
       "beer":"Christmas Ale",
       "style":"Winter Warmer",
       "season":"winter"
    },
    {  
+      "id":44,
       "brewery":"Great Lakes Brewing",
       "beer":"Commodore Perry",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":45,
       "brewery":"Great Lakes Brewing",
       "beer":"Conwaya Irish Ale",
       "style":"Irish Red Ale",
       "season":"all"
    },
    {  
+      "id":46,
       "brewery":"Great Lakes Brewing",
       "beer":"Dortmunder Gold",
       "style":"Dortmunder",
       "season":"all"
    },
    {  
+      "id":47,
       "brewery":"Great Lakes Brewing",
       "beer":"Edmund Fitzgerald",
       "style":"American Porter",
       "season":"all"
    },
    {  
+      "id":48,
       "brewery":"Great Lakes Brewing",
       "beer":"Elliot Ness",
       "style":"Vienna Lager",
       "season":"all"
    },
    {  
+      "id":49,
       "brewery":"Great Lakes Brewing",
       "beer":"Oktoberfest",
       "style":"Oktoberfest",
       "season":"fall"
    },
    {  
+      "id":50,
       "brewery":"Great Lakes Brewing",
       "beer":"Rye of the Tiger",
       "style":"IPA",
       "season":"summer"
    },
    {  
+      "id":51,
       "brewery":"Guiness",
       "beer":"Guiness Stout",
       "style":"Irish Dry Stout",
       "season":"all"
    },
    {  
+      "id":52,
       "brewery":"Harp",
       "beer":"Harp Lager",
       "style":"European Pale Lager",
       "season":"all"
    },
    {  
+      "id":53,
       "brewery":"Heineken",
       "beer":"Heineken Lager",
       "style":"European Pale Lager",
       "season":"all"
    },
    {  
+      "id":54,
       "brewery":"Hoegaarden",
       "beer":"Hoegaarden",
       "style":"Witbier",
       "season":"all"
    },
    {  
+      "id":55,
       "brewery":"Hofbrau",
       "beer":"Hofbrau Original",
       "style":"German Lager",
       "season":"all"
    },
    {  
+      "id":56,
       "brewery":"Kentucky Brewing",
       "beer":"Bourbon Barrel Ale",
       "style":"English Strong Ale",
       "season":"all"
    },
    {  
+      "id":57,
       "brewery":"Killians",
       "beer":"Irish Red",
       "style":"American Amber Lager",
       "season":"all"
    },
    {  
+      "id":58,
       "brewery":"Kona",
       "beer":"Big Wave Golden Ale",
       "style":"American Blonde Ale",
       "season":"all"
    },
    {  
+      "id":59,
       "brewery":"Kona",
       "beer":"Longboard",
       "style":"American Pale Lager",
       "season":"all"
    },
    {  
+      "id":60,
       "brewery":"Lagunitas",
       "beer":"A little Sumpin Sumpin",
       "style":"American Pale Wheat Ale",
       "season":"all"
    },
    {  
+      "id":61,
       "brewery":"Lagunitas",
       "beer":"Lagunitas IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":62,
       "brewery":"Landshark",
       "beer":"Landshark Lager",
       "style":"American lager",
       "season":"all"
    },
    {  
+      "id":63,
       "brewery":"Left Hand",
       "beer":"Milk Stout Nitro",
       "style":"Milk Stout",
       "season":"all"
    },
    {  
+      "id":64,
       "brewery":"Leinenkugel",
       "beer":"Cranberry Ginger Shandy",
       "style":"Fruit Beer",
       "season":"winter"
    },
    {  
+      "id":65,
       "brewery":"Leinenkugel",
       "beer":"Grapefruit Shandy",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":66,
       "brewery":"Leinenkugel",
       "beer":"Oktoberfest",
       "style":"Oktoberfest",
       "season":"fall"
    },
    {  
+      "id":67,
       "brewery":"Leinenkugel",
       "beer":"Snowdrift Vanilla Porter",
       "style":"American Porter",
       "season":"winter"
    },
    {  
+      "id":68,
       "brewery":"Leinenkugel",
       "beer":"Summer Shandy",
       "style":"Fruit Beer",
       "season":"summer"
    },
    {  
+      "id":69,
       "brewery":"Leinenkugel",
       "beer":"Sunset Wheat",
       "style":"Witbier",
       "season":"all"
    },
    {  
+      "id":70,
       "brewery":"Lindemans",
       "beer":"Framboise",
       "style":"Fruit Lambic",
       "season":"all"
    },
    {  
+      "id":71,
       "brewery":"Lost Coast",
       "beer":"Tangerine",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":72,
       "brewery":"Madtree",
       "beer":"PsycHOPathy",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":73,
       "brewery":"Magic Hat",
       "beer":"#9",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":74,
       "brewery":"Magic Hat",
       "beer":"Pistil",
       "style":"Spiced Beer",
       "season":"spring"
    },
    {  
+      "id":75,
       "brewery":"New Belgium",
       "beer":"Fat Tire",
       "style":"Amber Ale",
       "season":"all"
    },
    {  
+      "id":76,
       "brewery":"New Belgium",
       "beer":"Ranger IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":77,
       "brewery":"Newcastle",
       "beer":"Brown Ale",
       "style":"English Brown Ale",
       "season":"all"
    },
    {  
+      "id":78,
       "brewery":"Omission",
       "beer":"Omission Lager",
       "style":"American Pale Lager - Gluten Free",
       "season":"all"
    },
    {  
+      "id":79,
       "brewery":"Pacifico",
       "beer":"Clara",
       "style":"American Lager",
       "season":"all"
    },
    {  
+      "id":80,
       "brewery":"Peroni",
       "beer":"Nastro Azzurro",
       "style":"European Pale Lager",
       "season":"all"
    },
    {  
+      "id":81,
       "brewery":"Red Stripe",
       "beer":"Red Stripe Lager",
       "style":"American Lager",
       "season":"all"
    },
    {  
+      "id":82,
       "brewery":"Revolution Brewing",
       "beer":"Fistmas",
       "style":"Spiced Beer",
       "season":"winter"
    },
    {  
+      "id":83,
       "brewery":"Rouge",
       "beer":"Dead Guy Ale",
       "style":"Bock",
       "season":"all"
    },
    {  
+      "id":84,
       "brewery":"Samuel Adams",
       "beer":"Boston Lager",
       "style":"Vienna Lager",
       "season":"all"
    },
    {  
+      "id":85,
       "brewery":"Samuel Adams",
       "beer":"Cherry Wheat",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":86,
       "brewery":"Samuel Adams",
       "beer":"Octoberfest",
       "style":"Oktoberfest",
       "season":"fall"
    },
    {  
+      "id":87,
       "brewery":"Samuel Adams",
       "beer":"Summer Ale",
       "style":"American Pale Wheat Ale",
       "season":"summer"
    },
    {  
+      "id":88,
       "brewery":"Samuel Adams",
       "beer":"Winter Lager",
       "style":"Bock",
       "season":"winter"
    },
    {  
+      "id":89,
       "brewery":"Samuel Smiths",
       "beer":"Nut Brown Lager",
       "style":"English Brown Ale",
       "season":"all"
    },
    {  
+      "id":90,
       "brewery":"Samuel Smiths",
       "beer":"Oatmeal Stout",
       "style":"Oatmeal Stout",
       "season":"all"
    },
    {  
+      "id":91,
       "brewery":"Shiner",
       "beer":"Shiner Bock",
       "style":"Bock",
       "season":"all"
    },
    {  
+      "id":92,
       "brewery":"Sierra Nevada",
       "beer":"Pale Ale",
       "style":"American Pale Ale",
       "season":"all"
    },
    {  
+      "id":93,
       "brewery":"Sierra Nevada",
       "beer":"Torpedo",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":94,
       "brewery":"Smith and Forge",
       "beer":"Hard Cider",
       "style":"Hard Cider - gluten free",
       "season":"all"
    },
    {  
+      "id":95,
       "brewery":"Smithwicks",
       "beer":"Irish Red",
       "style":"Irish Red Ale",
       "season":"all"
    },
    {  
+      "id":96,
       "brewery":"Southern Tier",
       "beer":"Souther Tier IPA",
       "style":"IPA",
       "season":"all"
    },
    {  
+      "id":97,
       "brewery":"Southern Tier",
       "beer":"Pumking",
       "style":"Pumpkin Ale",
       "season":"fall"
    },
    {  
+      "id":98,
       "brewery":"St. Pauli Brauerei",
       "beer":"St. Pauli Girl",
       "style":"German Pilsner",
       "season":"all"
    },
    {  
+      "id":99,
       "brewery":"",
       "beer":"Stella Artois",
       "style":"European Pale Lager",
       "season":"all"
    },
    {  
+      "id":100,
       "brewery":"Stone",
       "beer":"Arrogant Bastard",
       "style":"American Strong Ale",
       "season":"all"
    },
    {  
+      "id":101,
       "brewery":"Stone",
       "beer":"IPA",
       "style":"American IPA",
       "season":"all"
    },
    {  
+      "id":102,
       "brewery":"Heineken",
       "beer":"Strongbow Cider",
       "style":"Hard Cider",
       "season":"all"
    },
    {  
+      "id":103,
       "brewery":"SweetWater Brewing",
       "beer":"420",
       "style":"American Pale Ale",
       "season":"all"
    },
    {  
+      "id":104,
       "brewery":"SweetWater Brewing",
       "beer":"Hop Hash",
       "style":"Double IPA",
       "season":"all"
    },
    {  
+      "id":105,
       "brewery":"Thirsty Dog",
       "beer":"12 Dogs of Christmas",
       "style":"Winter Warmer",
       "season":"winter"
    },
    {  
+      "id":106,
       "brewery":"Thirsty Dog",
       "beer":"Old Leghumper",
       "style":"American Porter",
       "season":"all"
    },
    {  
+      "id":107,
       "brewery":"Thirsty Dog",
       "beer":"Pumpkin Ale",
       "style":"Pumpkin Ale",
       "season":"fall"
    },
    {  
+      "id":108,
       "brewery":"Thirsty Dog",
       "beer":"Raspberry Ale",
       "style":"Fruit Beer",
       "season":"all"
    },
    {  
+      "id":109,
       "brewery":"Heineken Asia Pacific",
       "beer":"Tiger Lager",
       "style":"American Lager",
       "season":"all"
    },
    {  
+      "id":110,
       "brewery":"Woodchuck",
       "beer":"Hard Cider",
       "style":"Hard Cider - Gluten Free",
       "season":"all"
    },
    {  
+      "id":111,
       "brewery":"Youngs",
       "beer":"Double Chocolate Stout",
       "style":"Milk Stout",
       "season":"all"
    },
    {  
+      "id":112,
       "brewery":"Yuengling",
       "beer":"IPL",
       "style":"American Pale Lager",
       "season":"winter"
    },
    {  
+      "id":113,
       "brewery":"Yuengling",
       "beer":"Oktoberfest",
       "style":"Oktoberfest",

@@ -15,6 +15,11 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.2",
     "grunt-parallel": "^0.4.1",
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.5.0",
     "load-grunt-tasks": "^3.4.0"
+  },
+  "scripts": {
+    "handlebars": "handlebars lib/ui/templates/beer-list.hbs -f static/templates.js"
   }
 }

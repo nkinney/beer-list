@@ -116,14 +116,16 @@ Yuengling|Oktoberfest|Oktoberfest|fall"
 
 @beers = []
 
-def add_beer(beer_string)
+def add_beer(beer_string, id = 0)
 	split_beer_string = beer_string.split '|'
-	@beers << {:brewery => split_beer_string[0], :beer => split_beer_string[1], :style => split_beer_string[2], :season => split_beer_string[3]}
+	@beers << {:id => id, :brewery => split_beer_string[0], :beer => split_beer_string[1], :style => split_beer_string[2], :season => split_beer_string[3]}
 end
 
 def parse_beers_string
+	id = 0
 	@beers_string.split("\n").each do |b|
-		add_beer b
+		id += 1
+		add_beer b, id
 	end
 
 	puts @beers.to_json

@@ -53,6 +53,9 @@ module.exports = function (grunt) {
       dist: {
         src: ['lib/ui/scripts/application.js'],
         dest: 'static/beer-list.js'
+      },
+      options: {
+          transform: ['hbsfy']
       }
     },
     handlebars: {

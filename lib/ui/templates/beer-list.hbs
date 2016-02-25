@@ -1,30 +1,36 @@
+
+<div id="beer-list">
+  <h1>Beer List</h1>
+  <hr />
   <table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Try It</th>
-      <th>Beer</th>
-      <th>Brewery</th>
-      <th>Style</th>
-      <th>Season</th>
-      <th>Is Good</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{#each beers}}
-    {{#unless this.attributes.haveTried}}
+    <thead>
       <tr>
-        <td><i class="fa fa-times"></i></td>
-        <td>{{this.attributes.beer}}</td>
-        <td>{{this.attributes.brewery}}</td>
-        <td>{{this.attributes.style}}</td>
-        <td>{{this.attributes.season}}</td>
-        {{#if this.attributes.isGood}}
-          <td><i class="fa fa-thumbs-up"></i></td>
-        {{else}}
-          <td><<i class="fa fa-thumbs-down"></i></td>
-        {{/if}}
+        <th>Try It</th>
+        <th>Beer</th>
+        <th>Brewery</th>
+        <th>Style</th>
+        <th>Season</th>
+        <th>Is Good</th>
       </tr>
-    {{/unless}}
-    {{/each}}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {{#each beers}}
+        {{#unless this.attributes.haveTried}}
+          <div data-region="beer"></div>
+          <tr>
+            <td><i class="fa fa-times"></i></td>
+            <td>{{this.attributes.beer}}</td>
+            <td>{{this.attributes.brewery}}</td>
+            <td>{{this.attributes.style}}</td>
+            <td>{{this.attributes.season}}</td>
+            {{#if this.attributes.isGood}}
+              <td><i class="fa fa-thumbs-up"></i></td>
+            {{else}}
+              <td><i class="fa fa-thumbs-down"></i></td>
+            {{/if}}
+          </tr>
+        {{/unless}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>
