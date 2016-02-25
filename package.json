@@ -1,11 +1,7 @@
 {
   "name": "beer-list",
   "dependencies": {
-    "backbone": "^1.2.3",
-    "express": "^4.13.4",
-    "jquery": "^2.2.0",
-    "json2": "^0.4.0",
-    "underscore": "^1.8.3"
+    "express": "^4.13.4"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
@@ -18,8 +14,5 @@
     "handlebars": "^4.0.5",
     "hbsfy": "^2.5.0",
     "load-grunt-tasks": "^3.4.0"
-  },
-  "scripts": {
-    "handlebars": "handlebars lib/ui/templates/beer-list.hbs -f static/templates.js"
   }
 }
