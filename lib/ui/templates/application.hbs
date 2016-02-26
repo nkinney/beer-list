@@ -3,13 +3,29 @@
 	<h1>Beer List</h1>
 	<hr />
 	<div>
+{{!-- 		<div class="row">
+			<div class="col-xs-8"><strong>Beer</strong></div>
+			<div class="col-xs-2"><strong>Season</strong></div>
+			<div class="col-xs-2"><strong>Is Good</strong></div>
+		</div> --}}
 		<div class="row">
-			<div class="col-xs-1 col-mid-1"><strong>Try It</strong></div>
-			<div class="col-xs-3 col-mid-3"><strong>Beer</strong></div>
-			<div class="col-xs-3 col-mid-3"><strong>Brewery</strong></div>
-			<div class="col-xs-3 col-mid-3"><strong>Style</strong></div>
-			<div class="col-xs-1 col-mid-1"><strong>Season</strong></div>
-			<div class="col-xs-1 col-mid-1"><strong>Is Good</strong></div>
+			<div class="col-xs-8">
+				<select class="form-control">
+					<option>Tried it.</option>
+					<option>Need it.</option>
+				</select>
+			</div>
+			<div class="col-xs-2">
+				<select class="form-control">
+					<option>Non-seasonal</option>
+					<option>All</option>
+					<option>Spring</option>
+					<option>Summer</option>
+					<option>Fall</option>
+					<option>Winter</option>
+				</select>
+			</div>
+			<div class="col-xs-2"><strong>Is Good</strong></div>
 		</div>
 		<div data-region="beer-list"></div>
 	</div>

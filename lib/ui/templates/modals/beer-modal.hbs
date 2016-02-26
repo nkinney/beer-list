@@ -1,11 +1,15 @@
 <div class="modal-dialog modal-primary">
   <form class="modal-content" role="form">
     <div class="modal-header">
-      <h4 class="modal-title">BEER MODAL</h4>
+    	<button type="button" class="close" data-dismiss="modal"><span class="fa fa-times-circle-o" aria-hidden="true"></span><span class="sr-only">Close</span></button>
+      <h4 class="modal-title">{{this.beer}}</h4>
     </div>
 
     <div class="modal-body">
-    	<h3>{{this.beer}}</h3>
+    	<ul>
+    		<li><strong>Brewery:</strong> {{this.brewery}}</li>
+    		<li><strong>Style:</strong> {{this.style}}</li>
+    	</ul>
     </div>
 
     <div class="modal-footer">
