@@ -16,7 +16,8 @@ module.exports = function (grunt) {
           livereload: true
         },
         files: [
-          'lib/ui/**/*.js'
+          'lib/ui/**/*.js',
+          'lib/ui/templates/**/*.hbs'
         ],
         tasks: [
           'browserify:dist','express:web'
