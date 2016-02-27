@@ -1,24 +1,19 @@
 <div>
-	<h3>Hello User</h3>
-	<h1>Beer List</h1>
+	<h1>Nick's Beer List</h1>
 	<hr />
 	<div>
-{{!-- 		<div class="row">
-			<div class="col-xs-8"><strong>Beer</strong></div>
-			<div class="col-xs-2"><strong>Season</strong></div>
-			<div class="col-xs-2"><strong>Is Good</strong></div>
-		</div> --}}
 		<div class="row">
 			<div class="col-xs-8">
-				<select class="form-control">
+				<select class="form-control" id="beer-tried">
+					<option>Show them all.</option>
 					<option>Tried it.</option>
 					<option>Need it.</option>
 				</select>
 			</div>
 			<div class="col-xs-2">
-				<select class="form-control">
-					<option>Non-seasonal</option>
+				<select class="form-control" id="beer-season">
 					<option>All</option>
+					<option>Non-Seasonal</option>
 					<option>Spring</option>
 					<option>Summer</option>
 					<option>Fall</option>
