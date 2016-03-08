@@ -1,4 +1,6 @@
 # beer-list
-1. npm install
-2. grunt
-3. Visit http://localhost:3000
+1. Install/Start Mongo DB
+2. mongoimport --db beer-list --collection beers --drop --jsonArray --file ./beers.json
+3. npm install
+4. grunt
+5. Visit http://localhost:3000
