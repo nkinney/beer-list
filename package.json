@@ -6,7 +6,8 @@
     "express": "^4.13.4",
     "mongoose": "^4.4.6",
     "passport": "^0.3.2",
-    "passport-http": "^0.3.0"
+    "passport-http": "^0.3.0",
+    "handlebars": "^4.0.5"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
@@ -16,8 +17,14 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.2",
     "grunt-parallel": "^0.4.1",
-    "handlebars": "^4.0.5",
     "hbsfy": "^2.5.0",
     "load-grunt-tasks": "^3.4.0"
+  }, 
+  "scripts": { 
+    "compile" : "grunt handlebars",
+    "server" : "node ./lib/api/app.js",
+    "drop-mongo" : "mongo beer-list --eval \"db.dropDatabase()\"",
+    "beer-db" : "mongoimport --db beer-list --collection beers --drop --jsonArray --file ./beers.json",
+    "start" : "npm run compile & npm run server"
   }
 }

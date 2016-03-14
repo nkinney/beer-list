@@ -73,6 +73,9 @@ module.exports = function (grunt) {
   grunt.registerTask('web', 'launch webserver and watch tasks', [
     'parallel:web',
   ]);
+  grunt.registerTask('serve', 'launch webserver and watch tasks', [
+    'express:web',
+  ]);
   
   grunt.registerTask('default', ['dist','web']);
 };
