@@ -1,22 +1,18 @@
 <div class="modal-dialog modal-primary">
   <form class="modal-content" role="form">
     <div class="modal-header">
-    	<button type="button" class="close" data-dismiss="modal"><span class="fa fa-times-circle-o" aria-hidden="true"></span><span class="sr-only">Close</span></button>
+      <button type="button" class="close" data-dismiss="modal"><span class="fa fa-times-circle-o" aria-hidden="true"></span><span class="sr-only">Close</span></button>
       <h4 class="modal-title">{{this.beer}}</h4>
     </div>
 
     <div class="modal-body">
-    	<ul>
-    		<li><strong>Brewery:</strong> {{this.brewery}}</li>
-    		<li><strong>Style:</strong> {{this.style}}</li>
-    	</ul>
+      <ul>
+        <li><strong>Brewery:</strong> {{this.brewery}}</li>
+        <li><strong>Style:</strong> {{this.style}}</li>
+      </ul>
     </div>
-
     <div class="modal-footer">
-        <button id="modal-tried-beer" type="button" class="btn btn-primary">Tried it?</button>
-        {{!-- <button type="button" class="btn btn-success"><i class="fa fa-thumbs-up" /> Good</button>
-        <button type="button" class="btn btn-danger"><i class="fa fa-thumbs-down" /> Not Good</button> --}}
-      </div>
+      <button id="modal-tried-beer" type="button" class="btn btn-primary">Tried it?</button>
     </div>
   </form>
 </div>

@@ -867,20 +867,10 @@
       "season":"winter",
       "abv":5.6,
       "ibu":22.0,
-      "description":"Bold and rich, with a touch of holiday spice"
+      "description":"Bold and rich, with a touch of holiday spice. The first thing one notices in a Samuel Adams® Winter Lager is its color: the deep brown of winter. Then comes the magical aroma which promises something special on the tongue. The warm aroma of cinnamon and ginger which blends with the toasty sweetness of the malted barley and hint of citrus."
    },
    {  
       "id":88,
-      "brewery":"The first thing one notices in a Samuel Adams® Winter Lager is its color: the deep brown of winter. Then comes the magical aroma which promises something special on the tongue. The warm aroma of cinnamon and ginger which blends with the toasty sweetness of the malted barley and hint of citrus.",
-      "beer":null,
-      "style":null,
-      "season":null,
-      "abv":0.0,
-      "ibu":0.0,
-      "description":null
-   },
-   {  
-      "id":89,
       "brewery":"Samuel Smiths",
       "beer":"Nut Brown Lager",
       "style":"English Brown Ale",
@@ -890,7 +880,7 @@
       "description":null
    },
    {  
-      "id":90,
+      "id":89,
       "brewery":"Samuel Smiths",
       "beer":"Oatmeal Stout",
       "style":"Oatmeal Stout",
@@ -900,7 +890,7 @@
       "description":"Brewed with well water (the original well at the Old Brewery, sunk in 1758, is still in use, with the hard well water being drawn from 85 feet underground); fermented in ‘stone Yorkshire squares’ to create an almost opaque, wonderfully silky and smooth textured ale with a complex medium dry palate and bittersweet finish."
    },
    {  
-      "id":91,
+      "id":90,
       "brewery":"Shiner",
       "beer":"Shiner Bock",
       "style":"Bock",
@@ -910,7 +900,7 @@
       "description":"Bock reflects the tradition of genuine Bavarian beers as a brew only a craftsman like Kosmos Spoetzl, trained in the \"Old Country,\" could bring to life. With its deep amber color, distinctive rich flavor and full body, Shiner Bock demonstrates the care of a handcrafted brewing process to bring forth a mellow taste free of the bitter aftertaste found in many micro, specialty and imported beers. Just think of it as Shiner smooth."
    },
    {  
-      "id":92,
+      "id":91,
       "brewery":"Sierra Nevada",
       "beer":"Pale Ale",
       "style":"American Pale Ale",
@@ -920,7 +910,7 @@
       "description":"Our most popular beer, Sierra Nevada Pale Ale is a delightful interpretation of a classic style. It has a deep amber color and an exceptionally full-bodied, complex character. Generous quantities of premium Cascade hops give the Pale Ale its fragrant bouquet and spicy flavor."
    },
    {  
-      "id":93,
+      "id":92,
       "brewery":"Sierra Nevada",
       "beer":"Torpedo",
       "style":"American IPA",
@@ -930,7 +920,7 @@
       "description":"Sierra Nevada Torpedo Ale is a big American IPA; bold, assertive and full of flavor and aromas highlighting the complex citrus, pine and herbal character of whole-cone American hops. Our obsession with harnessing huge hop flavor led to the development of what we call the hop torpedo, a revolutionary method of dry-hopping designed, built, and debuted here at the brewery. Our torpedo is a sleek, stainless-steel piece of hardware that delivers more pure hop aroma than any method of dry-hopping we’ve ever seen."
    },
    {  
-      "id":94,
+      "id":93,
       "brewery":"Smith and Forge",
       "beer":"Hard Cider",
       "style":"Hard Cider - gluten free",
@@ -940,27 +930,17 @@
       "description":null
    },
    {  
-      "id":95,
+      "id":94,
       "brewery":"Smithwicks",
       "beer":"Irish Red",
       "style":"Irish Red Ale",
       "season":"all",
       "abv":4.5,
       "ibu":0.0,
-      "description":"Smithwick's is a clear beer with a rich ruby color and creamy head. Clean and delicate aroma with different individual notes: from the top fermentation by the Smithwick yeast come aromatic esters creating a fruity aroma. The Aroma Hops added late in the boil contribute clean fresh floral notes. Ale Malt contributes aroma hints of biscuit and caramel. "
+      "description":"Smithwick's is a clear beer with a rich ruby color and creamy head. Clean and delicate aroma with different individual notes: from the top fermentation by the Smithwick yeast come aromatic esters creating a fruity aroma. The Aroma Hops added late in the boil contribute clean fresh floral notes. Ale Malt contributes aroma hints of biscuit and caramel. Refreshing and clean taste with a gentle balance of bitterness from the hops added early in the boil, sweet/malty notes from the ale malt, and hints of roast/coffee from the roasted barley."
    },
    {  
-      "id":96,
-      "brewery":"Refreshing and clean taste with a gentle balance of bitterness from the hops added early in the boil, sweet/malty notes from the ale malt, and hints of roast/coffee from the roasted barley.",
-      "beer":null,
-      "style":null,
-      "season":null,
-      "abv":0.0,
-      "ibu":0.0,
-      "description":null
-   },
-   {  
-      "id":97,
+      "id":95,
       "brewery":"Southern Tier",
       "beer":"Souther Tier IPA",
       "style":"IPA",
@@ -970,7 +950,7 @@
       "description":"IPA stands for India Pale Ale and ours is an American version of the classic style. IPA's namesake lies in its colonial roots. British soldiers on their way to India drank a lot of beer, but found it would go stale on the long voyages. Meanwhile, brewers knew that by adding more hops the beer would stay fresh. Voila! A new style was born and it is one we are proud to brew. Southern Tier IPA is triple-hopped on its journey to your glass for a fully aromatic experience."
    },
    {  
-      "id":98,
+      "id":96,
       "brewery":"Southern Tier",
       "beer":"Pumking",
       "style":"Pumpkin Ale",
@@ -980,7 +960,7 @@
       "description":"COLOR: Deep copper; EFFERVESCENCE: Medium carbonation; NOSE: Pumpkin, pie spices, buttery crust, vanilla, roasted pecans; FLAVOR: Malty sweetness, vanilla, clove, allspice, cinnamon, nutmeg, pie crust; BITTERNESS: Low; BODY: Medium-light"
    },
    {  
-      "id":99,
+      "id":97,
       "brewery":"St. Pauli Brauerei",
       "beer":"St. Pauli Girl",
       "style":"German Pilsner",
@@ -990,7 +970,7 @@
       "description":null
    },
    {  
-      "id":100,
+      "id":98,
       "brewery":"Stella Artois",
       "beer":"Stella Artois",
       "style":"European Pale Lager",
@@ -1000,7 +980,7 @@
       "description":"Stella Artois was first brewed as a Christmas beer in Leuven. It was named Stella from the star of Christmas, and Artois after Sebastian Artois, founder of the brewery. It is brewed to perfection using the original Stella Artois yeast and the celebrated Saaz hops. It is the optimum premium lager, with its full flavour and clean crisp taste."
    },
    {  
-      "id":101,
+      "id":99,
       "brewery":"Stone",
       "beer":"Arrogant Bastard",
       "style":"American Strong Ale",
@@ -1010,7 +990,7 @@
       "description":null
    },
    {  
-      "id":102,
+      "id":100,
       "brewery":"Stone",
       "beer":"Stone IPA",
       "style":"American IPA",
@@ -1020,7 +1000,7 @@
       "description":"By definition, an India Pale Ale is hoppier and higher in alcohol than its little brother, pale ale — and we deliver in spades. Now one of the most well respected and best-selling IPAs in the country, this golden beauty explodes with citrusy flavor and hop aromas, all perfectly balanced by a subtle malt character. This crisp, extra hoppy brew is hugely refreshing on a hot day, but will always deliver no matter when you choose to drink it."
    },
    {  
-      "id":103,
+      "id":101,
       "brewery":"Heineken",
       "beer":"Strongbow Cider",
       "style":"Hard Cider",
@@ -1030,7 +1010,7 @@
       "description":null
    },
    {  
-      "id":104,
+      "id":102,
       "brewery":"SweetWater Brewing",
       "beer":"420",
       "style":"American Pale Ale",
@@ -1040,7 +1020,7 @@
       "description":"SweetWater 420 Extra Pale Ale, our most popular brew, is a tasty West Coast Style Pale Ale with a stimulating hop character and a crisp finish. 1st brewed on April 20th 1997."
    },
    {  
-      "id":105,
+      "id":103,
       "brewery":"SweetWater Brewing",
       "beer":"Hop Hash",
       "style":"Double IPA",
@@ -1050,7 +1030,7 @@
       "description":"We scraped all the HASH out of the Yakima hop pelletizers that we could get our sticky fingers on to concoct the dankest double IPA out there. The pure hop lupulin, AKA “HASH” (the resiny stuff!), meshes seamlessly with the 2-row, pilsner and wheat malts, allowing it to deliver a pungent punch to the palate."
    },
    {  
-      "id":106,
+      "id":104,
       "brewery":"Thirsty Dog",
       "beer":"12 Dogs of Christmas",
       "style":"Winter Warmer",
@@ -1060,7 +1040,7 @@
       "description":"This beer’s name sums up the ideas of bringing the best together to celebrate. It is filled with seasonal flavors from generous amounts of toasted and caramel malts, mixed with equally generous amounts of honey, cinnamon, ginger and nutmeg. We feel it is the perfect libation, filled with flavors of the season."
    },
    {  
-      "id":107,
+      "id":105,
       "brewery":"Thirsty Dog",
       "beer":"Old Leghumper",
       "style":"American Porter",
@@ -1070,7 +1050,7 @@
       "description":"This robust porter is dark brown in color and full bodied with a malty sweet taste. Deep roasted, yet silky smooth! Two types of roasted malts, including roasted chocolate malt give this beer it's award winning flavor."
    },
    {  
-      "id":108,
+      "id":106,
       "brewery":"Thirsty Dog",
       "beer":"Pumpkin Ale",
       "style":"Pumpkin Ale",
@@ -1080,7 +1060,7 @@
       "description":"Brewed with summer’s harvest of pumpkin, squash, honey, ginger, and love of great beers."
    },
    {  
-      "id":109,
+      "id":107,
       "brewery":"Thirsty Dog",
       "beer":"Raspberry Ale",
       "style":"Fruit Beer",
@@ -1090,7 +1070,7 @@
       "description":null
    },
    {  
-      "id":110,
+      "id":108,
       "brewery":"Heineken Asia Pacific",
       "beer":"Tiger Lager",
       "style":"American Lager",
@@ -1100,7 +1080,7 @@
       "description":"Brewed in Singapore since 1932, Tiger Beer is a full-flavored, pilsner-style golden lager with a slightly sweet note and an amazingly clean finish. 2010 World Beer Cup Gold Medal (international style lager)."
    },
    {  
-      "id":111,
+      "id":109,
       "brewery":"Woodchuck",
       "beer":"Hard Cider",
       "style":"Hard Cider - Gluten Free",
@@ -1110,7 +1090,7 @@
       "description":"Woodchuck® Hard Cider Private Reserve Pumpkin is a true connoisseur’s cider. Limited to only two and a half hours on the production line. It’s fresh and crisp with pumpkin at the finish and crafted to be served at 45 degrees for the rich flavors to show through. It pairs perfectly with roasted duck, turkey, squash ravioli as well as crème brulee and fresh cheesecake. Naturally gluten-free, this ultra limited release is produced once a year in both six-pack and on draft."
    },
    {  
-      "id":112,
+      "id":110,
       "brewery":"Youngs",
       "beer":"Double Chocolate Stout",
       "style":"Milk Stout",
@@ -1120,7 +1100,7 @@
       "description":"The original dark beer brewed with real chocolate."
    },
    {  
-      "id":113,
+      "id":111,
       "brewery":"Yuengling",
       "beer":"Yuengling IPL",
       "style":"American Pale Lager",
@@ -1130,7 +1110,7 @@
       "description":"Yuengling® is proud to introduce its IPL, a brew bursting with complex hop notes like an IPA but with a well-balanced lager base that allows the Bravo, Belma, Cascage and Citra hops to truly shine."
    },
    {  
-      "id":114,
+      "id":112,
       "brewery":"Yuengling",
       "beer":"Yuengling Oktoberfest",
       "style":"Oktoberfest",
