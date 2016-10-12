@@ -69,12 +69,13 @@ module.exports = function (grunt) {
   });
   grunt.registerTask('dist', 'launch webserver and watch tasks', [
     'browserify:dist',
+    'handlebars:all'
   ]);
   grunt.registerTask('web', 'launch webserver and watch tasks', [
-    'parallel:web',
+    'parallel:web'
   ]);
   grunt.registerTask('serve', 'launch webserver and watch tasks', [
-    'express:web',
+    'express:web'
   ]);
   
   grunt.registerTask('default', ['dist','web']);
