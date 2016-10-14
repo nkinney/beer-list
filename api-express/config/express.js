@@ -30,7 +30,7 @@ module.exports = function (config) {
     //     })
     // }));
 
-    app.use(express.static(root + '/../static'));
+    app.use(express.static(root + '/../public'));
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({
         extended: true

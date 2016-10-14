@@ -16,18 +16,19 @@
     "browserify": "^13.0.0",
     "grunt": "^0.4.5",
     "grunt-browserify": "^4.0.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-handlebars": "~0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.2",
     "grunt-parallel": "^0.4.1",
     "hbsfy": "^2.5.0",
     "load-grunt-tasks": "^3.4.0"
-  }, 
-  "scripts": { 
-    "compile" : "grunt handlebars",
-    "server" : "node ./api-express/app.js",
-    "drop-mongo" : "mongo beer-list --eval \"db.dropDatabase()\"",
-    "beer-db" : "mongoimport --db beer-list --collection beers --drop --jsonArray --file ./beers.json",
-    "start" : "npm run compile & npm run server"
+  },
+  "scripts": {
+    "compile": "grunt handlebars",
+    "server": "node ./api-express/app.js",
+    "drop-mongo": "mongo beer-list --eval \"db.dropDatabase()\"",
+    "beer-db": "mongoimport --db beer-list --collection beers --drop --jsonArray --file ./beers.json",
+    "start": "npm run compile & npm run server"
   }
 }

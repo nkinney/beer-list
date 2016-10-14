@@ -2,12 +2,48 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    browserify: {
+      dist: {
+        src: ['ui/scripts/application.js'],
+        dest: 'public/beer-list.js'
+      },
+      options: {
+          transform: ['hbsfy']
+      }
+    },
+    copy: {
+      main: {
+        src: 'ui/index.html',
+        dest: 'public/index.html'
+      },
+    },
     express: {
       options: { },
       web: {
         options: {
           script: 'api-express/app.js',
         }
+      },
+    },
+    handlebars: {
+      all: {
+        files: {
+          "public/templates.js": ["ui/templates/**/*.hbs"]
+        }
+      }
+    },
+    parallel: {
+      web: {
+        options: {
+          stream: true
+        },
+        tasks: [{
+          grunt: true,
+          args: ['watch:ui']
+        }, {
+          grunt: true,
+          args: ['watch:api']
+        }]
       },
     },
     watch: {
@@ -36,36 +72,6 @@ module.exports = function (grunt) {
         }
       }
     },
-    parallel: {
-      web: {
-        options: {
-          stream: true
-        },
-        tasks: [{
-          grunt: true,
-          args: ['watch:ui']
-        }, {
-          grunt: true,
-          args: ['watch:api']
-        }]
-      },
-    },
-    browserify: {
-      dist: {
-        src: ['ui/scripts/application.js'],
-        dest: 'static/beer-list.js'
-      },
-      options: {
-          transform: ['hbsfy']
-      }
-    },
-    handlebars: {
-      all: {
-        files: {
-          "static/templates.js": ["ui/templates/**/*.hbs"]
-        }
-      }
-    }
   });
   grunt.registerTask('dist', 'launch webserver and watch tasks', [
     'browserify:dist',
@@ -78,5 +84,5 @@ module.exports = function (grunt) {
     'express:web'
   ]);
   
-  grunt.registerTask('default', ['dist','web']);
+  grunt.registerTask('default', ['copy:main','dist','web']);
 };
