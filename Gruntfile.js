@@ -6,7 +6,7 @@ module.exports = function (grunt) {
       options: { },
       web: {
         options: {
-          script: 'lib/api/app.js',
+          script: 'api-express/app.js',
         }
       },
     },
@@ -16,8 +16,8 @@ module.exports = function (grunt) {
           livereload: true
         },
         files: [
-          'lib/ui/**/*.js',
-          'lib/ui/templates/**/*.hbs'
+          'ui/**/*.js',
+          'ui/templates/**/*.hbs'
         ],
         tasks: [
           'browserify:dist','express:web'
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
       },
       api: {
         files: [
-          'lib/api/**/*.js'
+          'api-express/**/*.js'
         ],
         tasks: [
           'browserify:dist','express:web'
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
     },
     browserify: {
       dist: {
-        src: ['lib/ui/scripts/application.js'],
+        src: ['ui/scripts/application.js'],
         dest: 'static/beer-list.js'
       },
       options: {
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
     handlebars: {
       all: {
         files: {
-          "static/templates.js": ["lib/ui/templates/**/*.hbs"]
+          "static/templates.js": ["ui/templates/**/*.hbs"]
         }
       }
     }

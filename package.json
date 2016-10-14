@@ -25,7 +25,7 @@
   }, 
   "scripts": { 
     "compile" : "grunt handlebars",
-    "server" : "node ./lib/api/app.js",
+    "server" : "node ./api-express/app.js",
     "drop-mongo" : "mongo beer-list --eval \"db.dropDatabase()\"",
     "beer-db" : "mongoimport --db beer-list --collection beers --drop --jsonArray --file ./beers.json",
     "start" : "npm run compile & npm run server"
