@@ -1,5 +1,4 @@
 node_modules/*
-static/*
 log/*
 public/beer-list.js
 public/templates.js
