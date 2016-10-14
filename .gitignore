@@ -1,3 +1,8 @@
 node_modules/*
-static/*
+log/*
+public/beer-list.js
+public/templates.js
+public/index.html
 .DS_Store
+Gemfile.lock
+

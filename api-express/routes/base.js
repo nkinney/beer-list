@@ -10,7 +10,7 @@ var user = require('../models/user.json');
 var router = express.Router();
 
 router.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/../../ui/index.html'));
+	res.sendFile(path.join(__dirname + '/../public/index.html'));
 });
 
 router.get('/api/', function(req, res) {

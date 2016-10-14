@@ -2,37 +2,33 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    browserify: {
+      dist: {
+        src: ['ui/scripts/application.js'],
+        dest: 'public/beer-list.js'
+      },
+      options: {
+          transform: ['hbsfy']
+      }
+    },
+    copy: {
+      main: {
+        src: 'ui/index.html',
+        dest: 'public/index.html'
+      },
+    },
     express: {
       options: { },
       web: {
         options: {
-          script: 'lib/api/app.js',
+          script: 'api-express/app.js',
         }
       },
     },
-    watch: {
-      ui: {
-        options: {
-          livereload: true
-        },
-        files: [
-          'lib/ui/**/*.js',
-          'lib/ui/templates/**/*.hbs'
-        ],
-        tasks: [
-          'browserify:dist','express:web'
-        ],
-      },
-      api: {
-        files: [
-          'lib/api/**/*.js'
-        ],
-        tasks: [
-          'browserify:dist','express:web'
-        ],
-        options: {
-          nospawn: true,
-          atBegin: true,
+    handlebars: {
+      all: {
+        files: {
+          "public/templates.js": ["ui/templates/**/*.hbs"]
         }
       }
     },
@@ -50,22 +46,32 @@ module.exports = function (grunt) {
         }]
       },
     },
-    browserify: {
-      dist: {
-        src: ['lib/ui/scripts/application.js'],
-        dest: 'static/beer-list.js'
+    watch: {
+      ui: {
+        options: {
+          livereload: true
+        },
+        files: [
+          'ui/**/*.js',
+          'ui/templates/**/*.hbs'
+        ],
+        tasks: [
+          'browserify:dist','express:web'
+        ],
       },
-      options: {
-          transform: ['hbsfy']
-      }
-    },
-    handlebars: {
-      all: {
-        files: {
-          "static/templates.js": ["lib/ui/templates/**/*.hbs"]
+      api: {
+        files: [
+          'api-express/**/*.js'
+        ],
+        tasks: [
+          'browserify:dist','express:web'
+        ],
+        options: {
+          nospawn: true,
+          atBegin: true,
         }
       }
-    }
+    },
   });
   grunt.registerTask('dist', 'launch webserver and watch tasks', [
     'browserify:dist',
@@ -78,5 +84,5 @@ module.exports = function (grunt) {
     'express:web'
   ]);
   
-  grunt.registerTask('default', ['dist','web']);
+  grunt.registerTask('default', ['copy:main','dist','web']);
 };
